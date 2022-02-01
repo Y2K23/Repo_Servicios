@@ -1,0 +1,6 @@
+Directorios sincronizados
+
+Por defecto el directorio /vagrant de la máquina virtual se encuentra sincronizado con el directorio del proyecto en la máquina física, 
+es decir, en este directorio se deberán ubicar los archivos que deberán perdurar en el tiempo.
+
+
