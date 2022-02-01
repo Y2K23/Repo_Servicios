@@ -3,4 +3,13 @@ Directorios sincronizados
 Por defecto el directorio /vagrant de la máquina virtual se encuentra sincronizado con el directorio del proyecto en la máquina física, 
 es decir, en este directorio se deberán ubicar los archivos que deberán perdurar en el tiempo.
 
+Las carpeta sincronizadas se configuran dentro de su vagrantfile usando config.vm.synced_folder
+
+EJ
+Vagrant.configure("2") do |config|
+  # other config here
+
+  config.vm.synced_folder "src/", "/srv/website"
+end
+
 
